@@ -4,7 +4,7 @@ This playbook is aimed at doing tasks based on roles that are specified.
 
 ## Roles
 
-For now, Only Apache role is specified. It installs apache2 on Ubuntu nodes and changes the default index.html with the one in templates/
+For now, Only Apache role is specified. It is aimed at installing apache2 on Ubuntu nodes and changes the default index.html with the one in templates/
 
 ## Installation
 
@@ -14,4 +14,4 @@ For now, Only Apache role is specified. It installs apache2 on Ubuntu nodes and 
 
 * Change IP addresses in inventory.txt
 
-* Run playbook as "ansible-playbook -i inventory.txt playbook.yml"
+* Run playbook as `ansible-playbook -i inventory.txt playbook.yml`
