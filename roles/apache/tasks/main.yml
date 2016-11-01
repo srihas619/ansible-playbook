@@ -1,0 +1,12 @@
+---
+- name: update cache
+  apt: update_cache=yes
+  
+- name: install apache
+  apt: name=apache2 state=present
+
+- name: remove default page
+  file: path=/var/www/html/index.html state=absent
+
+- name: copy new page
+  template: src=index.html dest=/var/www/html/

@@ -1,0 +1,2 @@
+172.31.103.226	ansible_user=user	ansible_sudo_pass=123456
+172.31.99.28	ansible_user=user	ansible_sudo_pass=123456
