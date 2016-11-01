@@ -1,9 +1,17 @@
 # ansible-playbook
 
-Install ansible on your controller node
+This playbook is aimed at doing tasks based on roles that are specified.
 
-Exchange ssh-key between controller node and deployer nodes
+## Roles
 
-Change IP addresses in inventory.txt
+For now, Only Apache role is specified. It installs apache2 on Ubuntu nodes and changes the default index.html with the one in templates/
 
-Run playbook as "ansible-playbook -i inventory.txt playbook.yml"
+## Installation
+
+* Install ansible on your controller node
+
+* Exchange ssh-key between controller node and deployer nodes
+
+* Change IP addresses in inventory.txt
+
+* Run playbook as "ansible-playbook -i inventory.txt playbook.yml"
